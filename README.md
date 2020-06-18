@@ -39,14 +39,14 @@ Online T5 | Front-end | 2020 | Semana 4 | Lógica com JS
   * [Exercícios de console.log(), alert(), confirm e prompt](exercícios-de-consolelog-alert-confirm-e-prompt)
   * [if/else if/else (condicionais)](#ifelse-ifelse-condicionais)
   * [Exercícios](#exercicios)
-  * [Tarefa de casa](https://github.com/reprograma/On3-logica-com-js/blob/master/exercicios/exercicio-tarefa-de-casa.md)
+  * [Tarefa de casa](https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-tarefa-de-casa.md)
 
 
 ### Dúvidas sobre o conteúdo
 
-https://github.com/reprograma/On3-logica-com-js/issues
+https://github.com/reprograma/On5-logica-com-js/issues
 
-http://dontpad.com/On3-logica-com-js
+http://dontpad.com/On5-logica-com-js
 
 ***
 
@@ -68,7 +68,7 @@ A afirmação acima é falsa.
 
 #### Exercício de lógica
 
-https://github.com/reprograma/On3-logica-com-js/blob/master/exercicios/exercicio-1.md
+https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-1.md
 
 
 #### O que é lógica de programação
@@ -128,7 +128,7 @@ Após a criação do fluxograma podemos começar a escrever o algoritmo
 
 #### Exercícios de algoritmos
 
-https://github.com/reprograma/On3-logica-com-js/blob/master/exercicios/exercicio-2.md
+https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-2.md
 
 
 ## Javascript
@@ -477,7 +477,7 @@ Na próxima aula nós vamos aprender a manipular o HTML com o JS, mas por enquan
 
 Para os próximos exercícios vamos criar um arquivo `.html` para testarmos nossos códigos.
 
-https://github.com/reprograma/On3-logica-com-js/blob/master/exercicios/exercicio-3.md
+https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-3.md
 
 
 #### if/else if/else (condicionais)
@@ -517,4 +517,4 @@ O else if pode ser repetido quantas vezes for necessário.
 
 #### Exercícios
 
-https://github.com/reprograma/On3-logica-com-js/blob/master/exercicios/exercicio-4.md
+https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-4.md
