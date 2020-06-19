@@ -3,8 +3,8 @@
 * Crie um algoritmo para o cálculo de média final de um aluno, para ele saber se passou de ano ou não
   - A média para passar de ano na escola é 7
   - O ano escolar tem 3 trimestres
-  - Alunos aprovados devem ver a mensagem: Parabéns, você está aprovado com média [valor da média], aproveite suas férias!
-  - Alunos reprovados devem ver a mensagem: Fuén, sua média é [valor da média] e você está reprovado.
+  - Alunos aprovados devem ver a mensagem: Parabéns, você foi aprovado com média [valor da média], aproveite suas férias!
+  - Alunos reprovados devem ver a mensagem: Que pena, sua média é [valor da média] e você foi reprovado.
 
   - *Bônus:*
     - Peça para o aluno digitar seu nome e mostre a mensagem de aprovado/reprovado junto com o nome ([Fulano], parabéns! você está aprovado, aproveite suas férias!)
