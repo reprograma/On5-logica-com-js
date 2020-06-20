@@ -473,9 +473,6 @@ let nome = 'Digite o seu nome';
 prompt(nome);
 ```
 
-Na próxima aula nós vamos aprender a manipular o HTML com o JS, mas por enquanto vamos utilizar o `confirm` e o `prompt` para conseguir capturar variáveis.
-
-
 #### Exercícios de console.log(), alert(), confirm e prompt
 
 Para os próximos exercícios vamos criar um arquivo `.html` para testarmos nossos códigos.
