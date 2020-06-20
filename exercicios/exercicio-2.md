@@ -5,6 +5,8 @@
   - Descreva todos os elementos que compõe o sanduíche (pão, condimentos, etc)
   - Descreva todos os acessórios que você vai precisar para fazer o sanduíche (faca, pratos, etc)
 
+  https://www.youtube.com/watch?v=cDA3_5982h8
+
 ***
 
 * Desenhe o fluxograma do algoritmo abaixo
