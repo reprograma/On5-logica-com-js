@@ -54,6 +54,19 @@ if (typeof nomeVariavel === 'string') {
   - Se elas forem iguais, mostre um alerta na tela avisando que elas são iguais
   - Se não forem, mostre um alerta na tela avisando que são frutas diferentes
 
+  ```js
+  let primeiraFruta = prompt('Digite um nome de fruta');
+  let segundaFruta = prompt('Digite outro nome de fruta');
+
+  console.log(primeiraFruta, segundaFruta);
+
+  if (primeiraFruta == segundaFruta) {
+    alert(`${primeiraFruta} é igual a ${segundaFruta}`)
+  } else {
+    alert(`${primeiraFruta} é diferente de ${segundaFruta}`)
+  }
+  ```
+
 ***
 
 * Peça para o usuário digitar três números e verifique se os números são positivos, negativos ou zero
