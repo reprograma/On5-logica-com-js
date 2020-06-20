@@ -281,28 +281,28 @@ Para conseguirmos trabalhar com variáveis, precisamos saber com que tipo de dad
 
 Existem alguns tipos de variáveis em javascript:
 
-* String
+* **String**
 É uma variável que representa texto, e seu valor é apresentado usando aspas.
 
 ```js
 let nome = 'Patricia';
 ```
 
-* Number
+* **Number**
 É uma variável que representa um número, e seu valor é apresentado usando sem aspas.
 
 ```js
 let number = 10;
 ```
 
-* Boolean
+* **Boolean**
 É uma variável lógica que representa dois valores: verdadeiro ou falso. Seu valor é apresentado usando sem aspas.
 
 ```js
 let option = false;
 ```
 
-* Function
+* **Function**
 É uma variável que contém um grupo de código dentro dela.
 
 ```js
@@ -311,14 +311,14 @@ let varFunction = function(a, b) {
 }
 ```
 
-* Array
+* **Array**
 Um array é utilizado para guardar diversos valores dentro de uma variável.
 
 ```js
 let sanduiches = ['Presunto e queijo', 'Mortadela', 'Rosbife'];
 ```
 
-* Object
+* **Object**
 Um objeto também guarda diversos valores dentro dele, mas com a diferença que cada valor pode ter uma propriedade.
 
 ```js
@@ -329,17 +329,17 @@ let sanduiche = {
 };
 ```
 
-* Undefined
+* **Undefined**
 ```js
 let nome;
 ```
 
-* Empty
+* **Empty**
 ```js
 let nome = "";
 ```
 
-* Null
+* **Null**
  ```js
 let nome = null;
 ```
