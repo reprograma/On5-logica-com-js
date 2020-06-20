@@ -70,6 +70,9 @@ A afirmação acima é falsa.
 
 https://github.com/reprograma/On5-logica-com-js/blob/master/exercicios/exercicio-1.md
 
+Sites para treinar lógica:
+- https://www.geniol.com.br/logica/desafios/
+- https://rachacuca.com.br/logica/
 
 #### O que é lógica de programação
 O que podemos notar no exercício que fizemos acima?
