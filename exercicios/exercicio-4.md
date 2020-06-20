@@ -87,3 +87,11 @@ if (typeof nomeVariavel === 'string') {
   - Utilize o operador ternário
   - Mensagem de sucesso: Você tem x anos ou mais e já pode votar.
   - Mensagem de erro: Você tem x anos e ainda não pode votar.
+
+
+***
+
+* Crie uma variável do tipo array com 5 nomes de cores. Mostre essa lista para o usuário em ordem alfabética
+  - Depois mostre para o usuário somente a segunda e a última cor dessa lista para o usuário. 
+
+***
