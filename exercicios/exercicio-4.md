@@ -67,3 +67,10 @@ if (typeof nomeVariavel === 'string') {
 * Crie um algoritmo em javascript para verificar se um cinema já está aberto. O cinema abre às 14h.
   - Se estiver aberto, mostre a mensagem: Agora são [x horas] e o cinema já está aberto desde às 14h.
   - Se estiver fechado, mostre a mensagem: Agora são [x horas] e o cinema só abre às 14h.
+
+***
+
+* Crie um algoritmo para validar se uma pessoa já tem idade suficiente para votar.
+  - Utilize o operador ternário
+  - Mensagem de sucesso: Você tem x anos ou mais e já pode votar.
+  - Mensagem de erro: Você tem x anos e ainda não pode votar.
