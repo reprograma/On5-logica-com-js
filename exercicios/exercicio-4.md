@@ -25,7 +25,7 @@ if (typeof nomeVariavel === 'string') {
     alert('Você apertou o botão OK');
   } else {
     alert('Você apertou o botão Cancel');
-  } 
+  }
   ```
 
 ***
@@ -35,6 +35,18 @@ if (typeof nomeVariavel === 'string') {
   - Se for uma string, mostre o seguinte alerta na tela: Olá nomedavariavel
 
   * Tem que utilizar o isNan();
+
+  ```js
+  let mensagem = 'Digite o seu nome';
+  let nomeUsuario = prompt(mensagem);
+  console.log(nomeUsuario);
+  console.log(isNaN(nomeUsuario));
+
+  if (isNaN(nomeUsuario) === true) {
+    alert(`Olá ${nomeUsuario}!`);
+    //alert('Olá' + nomedavariavel + '!');
+  }
+  ```
 
 ***
 
