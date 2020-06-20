@@ -75,6 +75,38 @@ if (typeof nomeVariavel === 'string') {
   - Se o número for zero, mostre a mensagem: "O número [x] é zero"
   - Você pode mostrar uma mensagem para cada número ou uma mensagem só para os três
 
+```js
+let numeroUm = prompt('Digite o primeiro número');
+let numeroDois = prompt('Digite o segundo número');
+let numeroTres = prompt('Digite o terceiro número');
+
+console.log(numeroUm, numeroDois, numeroTres);
+
+if (numeroUm > 0) {
+  alert('O número é positivo');
+} else if (numeroUm < 0) {
+  alert('O número é negativo');
+} else {
+  alert('O número é zero');
+}
+
+if (numeroDois > 0) {
+  alert('O número é positivo');
+} else if (numeroDois < 0) {
+  alert('O número é negativo');
+} else {
+  alert('O número é zero');
+}
+
+if (numeroTres > 0) {
+  alert('O número é positivo');
+} else if (numeroTres < 0) {
+  alert('O número é negativo');
+} else {
+  alert('O número é zero');
+}
+```
+
 ***
 
 * Crie um algoritmo para verificar se um cinema já está aberto. O cinema abre às 14h.
@@ -92,6 +124,6 @@ if (typeof nomeVariavel === 'string') {
 ***
 
 * Crie uma variável do tipo array com 5 nomes de cores. Mostre essa lista para o usuário em ordem alfabética
-  - Depois mostre para o usuário somente a segunda e a última cor dessa lista para o usuário. 
+  - Depois mostre para o usuário somente a segunda e a última cor dessa lista para o usuário.
 
 ***
