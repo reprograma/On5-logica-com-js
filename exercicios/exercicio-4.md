@@ -12,7 +12,7 @@ if (typeof nomeVariavel === 'string') {
 
 ***
 
-* Declare outra variável com uma mensagem de texto pedindo para o usuário clicar em um dos botões (OK ou Cancel)
+* Declare uma variável com uma mensagem de texto pedindo para o usuário clicar em um dos botões (OK ou Cancel)
   - Se ele clicar em OK, mostre o seguinte alerta na tela: Você apertou o botão OK
   - Se ele clicar em Cancel, mostre o seguinte alerta na tela: Você apertou o botão Cancel
 
@@ -30,11 +30,11 @@ if (typeof nomeVariavel === 'string') {
 
 ***
 
-* Declare outra variável com uma mensagem de texto pedindo para o usuário digitar o seu nome
+* Declare uma variável com uma mensagem de texto pedindo para o usuário digitar o seu nome
   - Verifique se o nome é uma String
   - Se for uma string, mostre o seguinte alerta na tela: Olá nomedavariavel
 
-  * Tem que utilizar o isNan();
+  * Tem que utilizar o isNaN();
 
   ```js
   let mensagem = 'Digite o seu nome';
@@ -64,7 +64,7 @@ if (typeof nomeVariavel === 'string') {
 
 ***
 
-* Crie um algoritmo em javascript para verificar se um cinema já está aberto. O cinema abre às 14h.
+* Crie um algoritmo para verificar se um cinema já está aberto. O cinema abre às 14h.
   - Se estiver aberto, mostre a mensagem: Agora são [x horas] e o cinema já está aberto desde às 14h.
   - Se estiver fechado, mostre a mensagem: Agora são [x horas] e o cinema só abre às 14h.
 
