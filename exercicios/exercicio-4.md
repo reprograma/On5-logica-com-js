@@ -16,6 +16,18 @@ if (typeof nomeVariavel === 'string') {
   - Se ele clicar em OK, mostre o seguinte alerta na tela: Você apertou o botão OK
   - Se ele clicar em Cancel, mostre o seguinte alerta na tela: Você apertou o botão Cancel
 
+  ```js
+  let mensagem = 'Clique em um dos botões da tela';
+  let confirmacao = confirm(mensagem);
+  console.log(confirmacao);
+
+  if (confirmacao === true) {
+    alert('Você apertou o botão OK');
+  } else {
+    alert('Você apertou o botão Cancel');
+  } 
+  ```
+
 ***
 
 * Declare outra variável com uma mensagem de texto pedindo para o usuário digitar o seu nome
