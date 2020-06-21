@@ -113,6 +113,20 @@ if (numeroTres > 0) {
   - Se estiver aberto, mostre a mensagem: Agora são [x horas] e o cinema já está aberto desde às 14h.
   - Se estiver fechado, mostre a mensagem: Agora são [x horas] e o cinema só abre às 14h.
 
+  ```js
+  let hoje = new Date();
+  let horaAgora = hoje.getHours();
+  let horarioAbertura = 14;
+
+  console.log(horaAgora, horarioAbertura)
+
+  if (horaAgora > horarioAbertura) {
+    alert(`O cinema está aberto (abriu às ${horarioAbertura})`);
+  } else {
+    alert(`O cinema está fechado (abre às ${horarioAbertura})`);
+  }
+  ```
+
 ***
 
 * Crie um algoritmo para validar se uma pessoa já tem idade suficiente para votar.
@@ -120,10 +134,29 @@ if (numeroTres > 0) {
   - Mensagem de sucesso: Você tem x anos ou mais e já pode votar.
   - Mensagem de erro: Você tem x anos e ainda não pode votar.
 
+```js
+let idadeVoto = 16;
+let idadeUsuario = prompt('Digite a sua idade');
+let podeVotar = (idadeUsuario >= idadeVoto) ? alert(`Você tem ${idadeUsuario} anos e já pode votar.`) : alert(`Você tem ${idadeUsuario} e ainda não pode votar.`);
+```
 
 ***
 
 * Crie uma variável do tipo array com 5 nomes de cores. Mostre essa lista para o usuário em ordem alfabética
   - Depois mostre para o usuário somente a segunda e a última cor dessa lista para o usuário.
+
+```js
+let listaCores = ['Vermelho', 'Amarelo', 'Rosa', 'Verde', 'Laranja'];
+console.log(listaCores);
+
+let listaOrdenada = listaCores.sort();
+console.log(listaOrdenada);
+
+let segundaCor = listaCores[1];
+console.log(segundaCor);
+
+let ultimaCor = listaCores[4];
+console.log(ultimaCor);
+```
 
 ***
