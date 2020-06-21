@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <title>BOLETIM</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1 class="title"> boletim </h1>
+    </header>
+
+    <form id="survey-form" class="container">
+
+        <label class="form-title" id="name-label"> Nome do estudante:
+            <br>
+            <br>
+            <input type="text" required placeholder="Insira o nome do estudante" id="name" action="/submit-your-name">
+        </label>
+        <br>
+
+        <hr>
+        <label class="form-title" id="number-label">Nota do estudante do 1º trimestre:
+            <br>
+            <br>
+            <input type="number" required id="nota1" min="0" max="10" placeholder="Insira a nota do aluno"
+                action="/submit-a-number"></label>
+        <br>
+        <hr>
+        <label class="form-title" id="number-label">Nota do estudante do 2º trimestre:
+            <br>
+            <br>
+            <input type="number" required id="nota2" min="0" max="10" placeholder="Insira a nota do aluno"
+                action="/submit-a-number"></label>
+        <br>
+        <hr>
+        <label class="form-title" id="number-label">Nota do estudante do 3º trimestre:
+            <br>
+            <br>
+            <input type="number" required id="nota3" min="0" max="10" placeholder="Insira a nota do aluno"
+                action="/submit-a-number"></label>
+        <br>
+        <hr>
+        <div>
+            <p> <b>Observações sobre o rendimento do estudante</b> </p>
+                <textarea id="comments" class="form-box" name="comment" placeholder="Escreva aqui"></textarea>
+          </div>
+          <br> 
+
+
+        <button class="form-buttom" id="submit" type="submit" onclick="media()">Enviar</button>
+
+        <br>
+    </form>
+
+</body>
+
+</html>

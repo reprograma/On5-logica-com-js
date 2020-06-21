@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+  background-image: url(../img/114803421-back-to-school-background-for-your-design-vector-illustration.jpg);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.title {
+  text-align: center;
+  color: black;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 2.5rem;
+  background-color: black;
+  color: whitesmoke;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.form-title {
+  font-weight: bolder;
+}
+
+.container {
+  padding: 30px;
+  font-family: sans-serif;
+  text-align: left;
+  border-radius: 10px;
+  border-color: black;
+  border-width: 5px;
+  border-style: solid;
+  background-color: lightcyan;
+  width: 50%;
+  margin: auto;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  box-shadow: 20px 20px 20px;
+}
+
+p {
+  text-align: center;
+}
+
+input {
+  width: 250px;
+}
+
+.form-box {
+  min-height: 120px;
+  width: 50%;
+  resize: vertical;
+  display: block;
+  margin: auto;
+}
+
+
+.form-buttom {
+  display: block;
+  margin: auto;
+  width: 20%;
+  padding: 0.5rem;
+  background: black;
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+
+  .container {
+    width: 80%;
+    border-width: 3px;
+  }
+}
+
+@media (max-width: 470px) {
+  .container {
+    box-shadow: none;
+  }
+
+  .form-buttom {
+    font-size: 0.8rem;
+    width: 30%;
+
+  }
+}
