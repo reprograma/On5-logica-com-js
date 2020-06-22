@@ -15,16 +15,17 @@ function verificar(){
     var n2 = parseFloat(document.getElementById('n2').value)
     var n3 = parseFloat(document.getElementById('n3').value)
 
-    var media = parseInt((n1 + n2 + n3)/3);
+    var media = (n1 + n2 + n3)/3;
+    
+    var mediaInt = parseInt(media)
     
 
-    var resultado = window.document.querySelector('div#resultado')
-
     if(media>=7){
-        alert(`Parabéns, ${nome}! Você foi aprovado com média ${media}, aproveite suas férias!`)
+
+        alert(`Parabéns, ${nome}! Você foi aprovado com média ${mediaInt}, aproveite suas férias!`)
            
     }else{ 
-        var retorno = confirm(`Que pena, ${nome}! Sua média é ${media} e você foi reprovado. Você gostaria de fazer recuperação para tentar melhorar sua nota?`)
+        var retorno = confirm(`Que pena, ${nome}! Sua média é ${mediaInt} e você foi reprovado. Você gostaria de fazer recuperação para tentar melhorar sua nota?`)
                
        
         if(retorno==true){

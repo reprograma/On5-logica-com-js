@@ -11,22 +11,26 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 150px;
+    
 }
 
 .container{
     background-color:purple;
     padding: 60px;
     align-items: center;
+    border-radius: 0 40px 40px 40px;
+    text-align: center;
     
 }
 h2{
     text-align: center;
     color: white;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
-p{
-    margin: 20px;
+p, h3{
+    margin: 30px;
     color: white;
+    
 }
 
 #btn{
