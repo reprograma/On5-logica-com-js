@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+body{
+    background-color: palevioletred;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.container{
+    background-color:purple;
+    padding: 60px;
+    align-items: center;
+    
+}
+h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+}
+p{
+    margin: 20px;
+    color: white;
+}
+
+#btn{
+    padding: 10px;
+    color: purple;
+    
+}
+
+#btn:hover{
+    background-color: palevioletred;
+
+}
