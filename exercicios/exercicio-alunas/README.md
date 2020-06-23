@@ -1,6 +1,6 @@
 ## Orientações gerais
 
-- Clonar este repositório: `https://github.com/reprograma/On3-logica-com-js`
+- Clonar este repositório: `https://github.com/reprograma/On5-logica-com-js`
 - Crie sua branch: `git checkout -b nome-da-branch`
 - **Atenção**: Faça alterações apenas nos arquivos dentro da sua pasta, os arquivos da pasta raiz _exercicio_ não deverão ser modificados para não acarretar conflitos de git **ALTERA OS ARQUIVOS SOMENTE DENTRO DA SUA PASTA**
 - Adicione uma pasta com seu-nome dentro da pasta `exercicio/exercicio-alunas`, ex: _patricia-tonella_
@@ -12,13 +12,6 @@
 exercicio-alunas/
   seu-nome/
     index.html
-    css/
-      style.css
     js/
       script.js
-    img/
-      facebook.png
-      foto-banner.jpg
-      twitter.png
-      youtube.png
 ```
