@@ -15,9 +15,9 @@ console.log("Média: " + media);
 let nquebrado = media %1; 
 console.log("Numero quebrado: " + nquebrado);
 
-// ## Quando a parte quebrada da média for maior que 0.5 será arredondado para mais e o contrário para menos ##
+// ## Quando a parte quebrada da média for maior que 0.8 será arredondado para mais e o contrário para menos ##
 let fmedia; //variável para guardar a média formatada.
-if (nquebrado > 0.5){
+if (nquebrado > 0.8){
     fmedia = Math.ceil(media);
 }else{
    fmedia = Math.floor(media);
