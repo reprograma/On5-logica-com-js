@@ -15,9 +15,12 @@ if (notasValidas) {
   
   if (alunoAprovado) {
     alert (`Parabéns, ${nome}, você foi passou de ano com média ${mediaAluno.toFixed(0)}, aproveite suas férias!`);
+
   } else if (alunoReprovado){
       alert (`Que pena, ${nome}, sua média é ${mediaAluno.toFixed(0)} e você não obteve aprovação.`);
+
       let pergunta = confirm('Gostaria de fazer recuperação?');
+      
       if (pergunta) {
         alert (`Ótimo, as aulas de recuperação começam semana que vem, ${nome}!`);
       } else {
