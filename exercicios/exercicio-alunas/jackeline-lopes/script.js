@@ -5,8 +5,9 @@ let terceiraNota = prompt("Insira a nota do terceiro trismestre:");
 
 console.log(primeiraNota, segundaNota, terceiraNota);
 
-let media = Math.round((+primeiraNota + +segundaNota + +terceiraNota) / 3);//Uma outra forma de fazer a média
-//let media = (parseInt(primeiraNota) + parseInt(segundaNota) + parseInt(terceiraNota) / 3);
+let media = Math.round((Number(primeiraNota) + Number(segundaNota) + Number(terceiraNota)) / 3);//Uma outra forma de fazer a média
+//let media = Math.round((+primeiraNota + +segundaNota + +terceiraNota) / 3);//Uma outra forma de fazer a média
+//let media = (parseInt(primeiraNota) + parseInt(segundaNota) + parseInt(terceiraNota) / 3);Outra melhor forma de fazer
 //tb há as funções Math.ceil e Math.floor
 console.log(media);
 
