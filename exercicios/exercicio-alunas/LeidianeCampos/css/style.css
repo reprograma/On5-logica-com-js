@@ -1,0 +1,26 @@
+/* INÍCIO DA APLICAÇÃO DE PROPRIEDADES PARA TODO O DOCUMENTO E BODY */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+  background-image: url(../img/background.jpg);
+  color: #028090;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  }
+/* FIM DA APLICAÇÃO DE PROPRIEDADES PARA TODO O DOCUMENTO E BODY */
+
+
+.container {
+  padding-top: 20%;
+  font-family: 'Varela Round';
+  line-height: 3.3em;
+  text-align: center;
+}
+
+.container h1 {
+  text-transform: uppercase;
+}
